@@ -33,7 +33,7 @@ root/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git  
 cd your-repo-name
 
 
