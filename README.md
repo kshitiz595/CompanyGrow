@@ -91,6 +91,11 @@ node seeds/projects.seed.js
 
 ---
 
+> **Initializing with dummy data ensures a smooth onboarding experience for new developers and showcases the platform’s features.**
+
+
+---
+
 ### 5. Run the Application
 
 **Start Backend**
@@ -142,10 +147,6 @@ npm start
 
 - **Employee performance visualized using Chart.js**
 - **Exportable PDF reports generated with jsPDF**
-
----
-
-> **Initializing with dummy data ensures a smooth onboarding experience for new developers and showcases the platform’s features.**
 
 ---
 
