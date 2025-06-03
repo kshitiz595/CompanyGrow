@@ -77,6 +77,17 @@ node seeds/user.seed.js
 node seeds/course.seed.js
 node seeds/projects.seed.js
 
+---
+
+## 🧑‍💻 Dummy User Credentials
+
+| Username (Email)                  | Password    | Role      |
+|-----------------------------------|-------------|-----------|
+| emily.johnson@example.com         | password123 | employee  |
+| michael.thompson@example.com      | password123 | manager   |
+| james.walker@example.com          | password123 | admin     |
+
+> **Note:** These credentials are for development and demo purposes only. Always use strong, unique passwords in production.
 
 ---
 
@@ -124,18 +135,6 @@ npm start
 - **📧 Email notifications**
 - **🗓️ Gantt chart for project timelines**
 - **🧠 AI-based skill recommendations**
-
----
-
-## 🧑‍💻 Dummy User Credentials
-
-| Username (Email)                  | Password    | Role      |
-|-----------------------------------|-------------|-----------|
-| emily.johnson@example.com         | password123 | employee  |
-| michael.thompson@example.com      | password123 | manager   |
-| james.walker@example.com          | password123 | admin     |
-
-> **Note:** These credentials are for development and demo purposes only. Always use strong, unique passwords in production.
 
 ---
 
