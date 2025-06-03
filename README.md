@@ -1,82 +1,155 @@
 # 🚀 Employee Growth & Performance Platform
 
-A full-stack web application to help organizations nurture employee growth through training, project allocation, and real-time performance rewards.
+**A full-stack web application to help organizations nurture employee growth through training, project allocation, and real-time performance rewards.**
+
+**This website has already been deployed on:**  
+**https://companygrow.onrender.com** (hosted on Render)
+
+**Developed by:**  
+**Mahaswin**  
+**Cherish**  
+**Srivardhan**
 
 Built with the **MERN Stack**: MongoDB, Express.js, React.js, and Node.js.
 
 ---
 
 ## 📁 Project Structure
+
 root/
 │
-├── backend/       # Express.js server & MongoDB models
-│   └── package.json
+├── backend/ # Express.js server & MongoDB models
+│ └── package.json
 │
-├── frontend/      # React.js client application
-│   └── package.json
+├── frontend/ # React.js client application
+│ └── package.json
 │
 └── README.md
+
+
 ---
 
 ## 🛠️ Getting Started
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-2. Install Dependencies
+
+### 2. Install Dependencies
 
 cd backend
 npm install
 
 Open a new terminal and run:
+
 cd frontend
 npm install
 
-3. Environment Variables
+### 3. Environment Variables
 
-Create a .env file in the backend/ folder and add the following:
+Create a `.env` file in the `backend/` folder and add the following:
+
 MONGO_URI=your_mongodb_connection_string
+PORT=4000
 JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_SECRET_KEY=sk_test_tR3PYbcVN1ZZ796tH88S4VQ2u
 CLIENT_URL=http://localhost:3000
 
-Create a .env file in the frontend/ folder and add:
-REACT_APP_API_URL=http://localhost:5000/api
 
-4. Run the Application
+Create a `.env` file in the `frontend/` folder and add:
 
-Start Backend 
+REACT_APP_API_BASE_URL=http://localhost:3000
+REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3
+
+
+> **Note:** The Stripe API keys provided are for developer mode. Replace them with your own production keys before deploying to production.
+
+---
+
+### 4. Initialize the Application with Dummy Data
+
+To add dummy data for a better developer experience, run:
+
+cd backend
+node seeds/user.seed.js
+node seeds/course.seed.js
+node seeds/projects.seed.js
+
+
+---
+
+### 5. Run the Application
+
+**Start Backend**
+
 cd backend
 npm start
 
-Start Frontend (Port 3000)
+
+**Start Frontend (Port 3000)**
+
 cd frontend
 npm start
 
-🧩 Features
-	•	👨‍💼 Role-based access: Admin, Manager, Employee
-	•	📚 Course creation, enrollment, and tracking
-	•	🏆 Badge rewards for course and project completion
-	•	📊 Performance metrics and progress tracking
-	•	💸 Stripe payment integration for bonuses
-	•	📁 Real-time project assignment and status updates
 
-📦 Tech Stack
-	•	Frontend: React.js, React Router, Axios
-	•	Backend: Express.js, Node.js
-	•	Database: MongoDB with Mongoose
-	•	Authentication: JWT-based authentication
-	•	Payments: Stripe API Integration
+---
 
-💡 Future Enhancements
-	•	📈 Analytics dashboards
-	•	📧 Email notifications
-	•	🗓️ Gantt chart for project timelines
-	•	🧠 AI-based skill recommendations
+## 🧩 Features
 
-📄 License
+- **👨‍💼 Role-based access:** Admin, Manager, Employee
+- **📚 Course creation, enrollment, and tracking**
+- **🏆 Badge rewards for course and project completion**
+- **📊 Performance metrics and progress tracking**
+- **📈 Analytics dashboards with Chart.js visualizations**
+- **📄 Exportable reports of performance visualizations using jsPDF**
+- **💸 Stripe payment integration for bonuses**
+- **📁 Real-time project assignment and status updates**
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** React.js, React Router, Axios, Chart.js, jsPDF
+- **Backend:** Express.js, Node.js
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JWT-based authentication
+- **Payments:** Stripe API Integration
+
+---
+
+## 💡 Future Enhancements
+
+- **📧 Email notifications**
+- **🗓️ Gantt chart for project timelines**
+- **🧠 AI-based skill recommendations**
+
+---
+
+## 🧑‍💻 Dummy User Credentials
+
+| Username (Email)                  | Password    | Role      |
+|-----------------------------------|-------------|-----------|
+| emily.johnson@example.com         | password123 | employee  |
+| michael.thompson@example.com      | password123 | manager   |
+| james.walker@example.com          | password123 | admin     |
+
+> **Note:** These credentials are for development and demo purposes only. Always use strong, unique passwords in production.
+
+---
+
+## 📊 Visualizations & Reports
+
+- **Employee performance visualized using Chart.js**
+- **Exportable PDF reports generated with jsPDF**
+
+---
+
+> **Initializing with dummy data ensures a smooth onboarding experience for new developers and showcases the platform’s features.**
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
