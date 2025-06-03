@@ -16,15 +16,15 @@ Built with the **MERN Stack**: MongoDB, Express.js, React.js, and Node.js.
 
 ## 📁 Project Structure
 
-root/
-│
-├── backend/ # Express.js server & MongoDB models
-│ └── package.json
-│
-├── frontend/ # React.js client application
-│ └── package.json
-│
-└── README.md
+root/  
+│  
+├── backend/ # Express.js server & MongoDB models  
+│ └── package.json  
+│  
+├── frontend/ # React.js client application  
+│ └── package.json  
+│   
+└── README.md  
 
 
 ---
