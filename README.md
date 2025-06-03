@@ -6,9 +6,10 @@
 **https://companygrow.onrender.com** (hosted on Render)
 
 **Developed by:**  
-**Mahaswin**  
-**Cherish**  
-**Srivardhan**
+- **Mahaswin**  
+- **Cherish**  
+- **Srivardhan**
+
 
 Built with the **MERN Stack**: MongoDB, Express.js, React.js, and Node.js.
 
