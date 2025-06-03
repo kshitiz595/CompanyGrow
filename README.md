@@ -39,29 +39,29 @@ cd your-repo-name
 
 ### 2. Install Dependencies
 
-cd backend
+cd backend  
 npm install
 
 Open a new terminal and run:
 
-cd frontend
+cd frontend  
 npm install
 
 ### 3. Environment Variables
 
-Create a `.env` file in the `backend/` folder and add the following:
+Create a `.env` file in the `backend/` folder and add the following:  
 
-MONGO_URI=your_mongodb_connection_string
-PORT=4000
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=sk_test_tR3PYbcVN1ZZ796tH88S4VQ2u
-CLIENT_URL=http://localhost:3000
+MONGO_URI=your_mongodb_connection_string  
+PORT=4000  
+JWT_SECRET=your_jwt_secret  
+STRIPE_SECRET_KEY=sk_test_tR3PYbcVN1ZZ796tH88S4VQ2u  
+CLIENT_URL=http://localhost:3000  
 
 
-Create a `.env` file in the `frontend/` folder and add:
+Create a `.env` file in the `frontend/` folder and add:   
 
-REACT_APP_API_BASE_URL=http://localhost:3000
-REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3
+REACT_APP_API_BASE_URL=http://localhost:3000  
+REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3  
 
 
 > **Note:** The Stripe API keys provided are for developer mode. Replace them with your own production keys before deploying to production.
@@ -70,12 +70,12 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmED
 
 ### 4. Initialize the Application with Dummy Data
 
-To add dummy data for a better developer experience, run:
+To add dummy data for a better developer experience, run:  
 
-cd backend
-node seeds/user.seed.js
-node seeds/course.seed.js
-node seeds/projects.seed.js
+cd backend  
+node seeds/user.seed.js  
+node seeds/course.seed.js  
+node seeds/projects.seed.js  
 
 ---
 
@@ -100,14 +100,14 @@ node seeds/projects.seed.js
 
 **Start Backend**
 
-cd backend
-npm start
+cd backend  
+npm start  
 
 
 **Start Frontend (Port 3000)**
 
-cd frontend
-npm start
+cd frontend  
+npm start  
 
 
 ---
