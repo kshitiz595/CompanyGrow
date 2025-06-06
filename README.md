@@ -51,7 +51,7 @@ cd CompanyGrow
 cd frontend  
 npm install
 
-### 3. Environment Variables
+### 3. Environment Variables ( For development Purposes )
 
 Create a `.env` file in the `backend/` folder and add the following:  
 
@@ -68,7 +68,7 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=
 
 ---
 
-### 4.(Optional) Initialize the Application with Dummy Data
+### 4.(Optional: Not required when using our database) Initialize the Application with Dummy Data
 
 To add dummy data for a better developer experience, run:  
 
