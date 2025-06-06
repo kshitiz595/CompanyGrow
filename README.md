@@ -54,9 +54,9 @@ npm install
 
 Create a `.env` file in the `backend/` folder and add the following:  
 
-MONGO_URI=your_mongodb_connection_string  
+MONGO_URI=mongodb+srv://cherishbilla28:W2MqYvlyCbO4LMZ4@company.pvcst6a.mongodb.net/?retryWrites=true&w=majority&appName=Company 
 PORT=4000  
-JWT_SECRET=your_jwt_secret  
+JWT_SECRET=ihohi92389234h204820hu293g4372g47g9g4372  
 STRIPE_SECRET_KEY=sk_test_tR3PYbcVN1ZZ796tH88S4VQ2u  
 CLIENT_URL=http://localhost:3000  
 
@@ -67,7 +67,7 @@ REACT_APP_API_BASE_URL=http://localhost:3000
 REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmEDMb0gSCassK5T3ZfxsAbcgKVmAIXF7oZ6ItlZZbXO6idTHE67IM007EwQ4uN3  
 
 
-> **Note:** The Stripe API keys provided are for developer mode. Replace them with your own production keys before deploying to production.
+> **Note:** The Stripe API keys provided are for developer mode. Replace them with your own production keys before deploying to production. The connection string provided gives full access to our database.
 
 ---
 
