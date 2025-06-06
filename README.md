@@ -68,7 +68,7 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=
 
 ---
 
-### 4.(Optional : Only when using your own database) Initialize the Application with Dummy Data
+### 4.(Optional) Initialize the Application with Dummy Data
 
 To add dummy data for a better developer experience, run:  
 
