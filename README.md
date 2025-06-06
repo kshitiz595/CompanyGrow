@@ -47,6 +47,7 @@ npm install
 
 Open a new terminal and run:
 
+cd CompanyGrow  
 cd frontend  
 npm install
 
