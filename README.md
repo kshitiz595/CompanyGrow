@@ -77,6 +77,8 @@ node seeds/user.seed.js
 node seeds/course.seed.js  
 node seeds/projects.seed.js  
 
+> **Note:** Adding an admin in the database is a must.
+
 ---
 
 ## 🧑‍💻 Dummy User Credentials
