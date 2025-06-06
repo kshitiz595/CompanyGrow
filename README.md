@@ -71,7 +71,7 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_51BTUDGJAJfZb9HEBwDg86TN1KNprHjkfipXmED
 
 ---
 
-### 4. Initialize the Application with Dummy Data
+### 4.(Optional : Only when using your own database) Initialize the Application with Dummy Data
 
 To add dummy data for a better developer experience, run:  
 
