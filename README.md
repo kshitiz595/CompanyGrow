@@ -51,7 +51,7 @@ cd CompanyGrow
 cd frontend  
 npm install
 
-### 3. Environment Variables ( For own development Purposes )
+### 3.( Optional: For own development Purposes ) Environment Variables 
 
 Create a `.env` file in the `backend/` folder and add the following:  
 
