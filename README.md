@@ -66,6 +66,8 @@ Create a `.env` file in the `frontend/` folder and add:
 REACT_APP_API_BASE_URL=  
 REACT_APP_STRIPE_PUBLISHABLE_KEY=  
 
+> **Note:** .env files corresonding to our deployment have already been provided in the repository.
+
 ---
 
 ### 4.( Optional: Not required when using our database ) Initialize the Application with Dummy Data
