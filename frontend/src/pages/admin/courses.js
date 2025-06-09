@@ -238,20 +238,21 @@ const AdminCoursesTab = () => {
     };
 
     const getBadgeColor = (badge) => {
-      switch (badge) {
-        case 'Green':
-          return '#28a745';
-        case 'Cyan':
-          return '#00bcd4 ';
-        case 'Blue':
-          return '#003f7f';
-        case 'Purple':
-          return '#6f42c1';
-        case 'Red':
-          return '#dc3545';
-      }
-    };
-    
+          switch (badge) {
+      case 'Green':
+        return '#28a745';
+      case 'Cyan':
+        return '#00bcd4';
+      case 'Blue':
+        return '#003f7f';
+      case 'Purple':
+        return '#6f42c1';
+      case 'Red':
+        return '#dc3545';
+      default:
+        return '#000000'; // Default to black or any fallback color
+    }
+  };
 
   const styles = {
     container: {
