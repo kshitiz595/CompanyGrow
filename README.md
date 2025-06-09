@@ -28,79 +28,10 @@ root/
 │ └── package.json  
 │   
 └── README.md  
-
-
 ---
 
-## 🛠️ Getting Started
 
-### 1. Clone the Repository
-
-git clone https://github.com/Persive07/CompanyGrow.git  
-cd CompanyGrow
-
-
-### 2. Install Dependencies
-
-cd backend  
-npm install
-
-Open a new terminal and run:
-
-cd CompanyGrow  
-cd frontend  
-npm install
-
-### 3.( Optional: For own development Purposes ) Environment Variables 
-
-Create a `.env` file in the `backend/` folder and add the following:  
-
-MONGO_URI= 
-PORT=  
-JWT_SECRET=  
-STRIPE_SECRET_KEY=  
-CLIENT_URL=  
-
-Create a `.env` file in the `frontend/` folder and add:   
-
-REACT_APP_API_BASE_URL=  
-REACT_APP_STRIPE_PUBLISHABLE_KEY=  
-
-> **Note:** .env files corresonding to our deployment have already been provided in the repository.
-
----
-
-### 4.( Optional: Not required when using our database ) Initialize the Application with Dummy Data
-
-To add dummy data for a better developer experience, run:  
-
-cd backend  
-node seeds/user.seed.js  
-node seeds/course.seed.js  
-node seeds/projects.seed.js  
-
-> **Note:** Adding an admin in the database is a must.
-
----
-
-## 🧑‍💻 Dummy User Credentials
-
-| Username (Email)                  | Password    | Role      |
-|-----------------------------------|-------------|-----------|
-| emily.johnson@example.com         | password123 | employee  |
-| michael.thompson@example.com      | password123 | manager   |
-| james.walker@example.com          | password123 | admin     |
-
-> **Note:** These credentials are for development and demo purposes only. Always use strong, unique passwords in production.
-
----
-
-> **Initializing with dummy data ensures a smooth onboarding experience for new developers and showcases the platform’s features.**
-
-
----
-
-### 5. Run the Application
+### Run the Application
 
 **Start Backend**
 
