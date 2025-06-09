@@ -1,18 +1,6 @@
 # 🚀 Employee Growth & Performance Platform
 
 **A full-stack web application to help organizations nurture employee growth through training, project allocation, and real-time performance rewards.**
-
-**This website has already been deployed on:**  
-**[https://companygrow.onrender.com](https://companygrow.onrender.com)** *(hosted on Render)*  
-**Login credentials are available under step 4 (Initialize the Application with Dummy Data).**
-
-
-**Developed by:**  
-- **Mahaswin**  
-- **Cherish**  
-- **Srivardhan**
-
-
 Built with the **MERN Stack**: MongoDB, Express.js, React.js, and Node.js.
 
 ---
